@@ -7,6 +7,7 @@
         <meta name="keywords" content="Random Word Generator">
         <link rel="stylesheet" type="text/css" href="/style.css">
         <link rel="shortcut icon" href="/favicon.ico">
+        <script type="text/javascript" src="/script.js"></script>
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
@@ -17,14 +18,14 @@
             <div class="content">
                 <h1>Random Word Generator</h1>
 <p>
-    Again, I have absolutely no idea what use all this is. Perhaps you would like to create a new language. The difference between this and <a href="../random_words/">Random Words</a> is that proper English prefixes and suffixes can be used to create the words.
+    Again, I have absolutely no idea what use all this is. Perhaps you would like to create a new language. The difference between this and <a href="../RandomWords/">Random Words</a> is that proper English prefixes and suffixes can be used to create the words.
 </p>
 
 <br>
 <div style="text-align: center;">
-    <form name="frmWord">
+    <form id="frmWord" action="">
         Prefix?
-        <select name="pref">
+        <select id="pref">
             <option value="2">Don't Care</option>
             <option value="1">Yes</option>
             <option value="0"> No</option>
